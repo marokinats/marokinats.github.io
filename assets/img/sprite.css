@@ -30,7 +30,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-blog_header {
   background-image: url(sprite.png);
-  background-position: 0px -1346px;
+  background-position: -600px -1346px;
   width: 303px;
   height: 208px;
 }
@@ -39,6 +39,18 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
   background-position: 0px -1035px;
   width: 479px;
   height: 311px;
+}
+.icon-example2 {
+  background-image: url(sprite.png);
+  background-position: 0px -1346px;
+  width: 300px;
+  height: 226px;
+}
+.icon-example3 {
+  background-image: url(sprite.png);
+  background-position: -300px -1346px;
+  width: 300px;
+  height: 225px;
 }
 .icon-map {
   background-image: url(sprite.png);
