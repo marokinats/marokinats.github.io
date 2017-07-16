@@ -18,39 +18,45 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 */
 .icon-about_header {
   background-image: url(sprite.png);
-  background-position: -1160px -1035px;
+  background-position: -1800px -1035px;
   width: 357px;
   height: 125px;
 }
 .icon-article_pic {
   background-image: url(sprite.png);
-  background-position: -479px -1035px;
+  background-position: -1119px -1035px;
   width: 681px;
   height: 128px;
 }
 .icon-blog_header {
   background-image: url(sprite.png);
-  background-position: -600px -1346px;
+  background-position: -600px -1515px;
   width: 303px;
   height: 208px;
 }
 .icon-example1 {
   background-image: url(sprite.png);
-  background-position: 0px -1035px;
+  background-position: -640px -1035px;
   width: 479px;
   height: 311px;
 }
 .icon-example2 {
   background-image: url(sprite.png);
-  background-position: 0px -1346px;
+  background-position: 0px -1515px;
   width: 300px;
   height: 226px;
 }
 .icon-example3 {
   background-image: url(sprite.png);
-  background-position: -300px -1346px;
+  background-position: -300px -1515px;
   width: 300px;
   height: 225px;
+}
+.icon-example4 {
+  background-image: url(sprite.png);
+  background-position: 0px -1035px;
+  width: 640px;
+  height: 480px;
 }
 .icon-map {
   background-image: url(sprite.png);
@@ -66,37 +72,37 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-review_bg_list1 {
   background-image: url(sprite.png);
-  background-position: -985px -1163px;
+  background-position: -1625px -1163px;
   width: 58px;
   height: 108px;
 }
 .icon-review_bg_list2 {
   background-image: url(sprite.png);
-  background-position: -1658px -1035px;
+  background-position: -2298px -1035px;
   width: 99px;
   height: 91px;
 }
 .icon-review_bg_list3 {
   background-image: url(sprite.png);
-  background-position: -1517px -1035px;
+  background-position: -2157px -1035px;
   width: 141px;
   height: 120px;
 }
 .icon-review_pic {
   background-image: url(sprite.png);
-  background-position: -1757px -1035px;
+  background-position: -2397px -1035px;
   width: 77px;
   height: 77px;
 }
 .icon-review_quote {
   background-image: url(sprite.png);
-  background-position: -1834px -1035px;
+  background-position: -2474px -1035px;
   width: 75px;
   height: 61px;
 }
 .icon-works_header {
   background-image: url(sprite.png);
-  background-position: -479px -1163px;
+  background-position: -1119px -1163px;
   width: 506px;
   height: 165px;
 }
