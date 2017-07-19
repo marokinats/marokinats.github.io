@@ -54,7 +54,7 @@
 					<div class="welcome__content-auth flip__id flipped">
 						<div class="authorization">
 							<div class="authorization__title block-subtitle">Авторизуйтесь</div>
-							<form class="authorization__form" action="#" method="POST" enctype="multipart/form-data">
+							<form class="authorization__form" action="mail.php" method="POST" enctype="multipart/form-data">
 								<div class="authorization__form-content">
 									<div class="authorization__form-list">
 										<div class="authorization__form-item">
@@ -86,11 +86,11 @@
 									</div>
 									<div class="authorization__form-question"><span class="authorization__form-question-text">Вы точно не робот?</span>
 										<label class="authorization__form-radio-label" for="yes">
-											<input class="authorization__form-radio-btn" type="radio" name="yes" id="yes">
+											<input class="authorization__form-radio-btn authorization__form-radio-btn_yes" type="radio" name="yes" id="yes" value="yes">
 											<div class="authorization__form-radio-fake"></div>Да
 										</label>
 										<label class="authorization__form-radio-label" for="no">
-											<input class="authorization__form-radio-btn" type="radio" name="no" id="no">
+											<input class="authorization__form-radio-btn authorization__form-radio-btn_no" type="radio" name="no" id="no" value="no">
 											<div class="authorization__form-radio-fake"></div>Не уверен
 										</label>
 									</div>
@@ -113,6 +113,17 @@
 				</div>
 			</div>
 		</section>
+		<div class="status-popup popup" id="success">
+			<div class="status-popup__inner">
+				<div class="status-popup__message">Сообщение отправлено!</div><a class="status-popup__close btn" href="#">Закрыть</a>
+			</div>
+		</div>
+		<div class="status-popup popup" id="error">
+			<div class="status-popup__inner">
+				<div class="status-popup__message error-message">Произошла ошибка :(</div>
+				<div class="status-popup__message error-message">Проверьте правильность заполнения данных!</div><a class="status-popup__close btn" href="#">Закрыть</a>
+			</div>
+		</div>
 		<div class="preloader">
 			<div class="preloader__spinner">
 				<div class="preloader__animation"></div>
